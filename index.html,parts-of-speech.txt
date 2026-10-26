@@ -1,0 +1,46 @@
+Act as an expert front-end developer and KS2 (Key Stage 2, ages 7-11) educational designer. Please generate a complete, single-page, interactive web application designed to help KS2 students learn and master the Parts of Speech. The application must be ready to deploy on GitHub Pages as a static web app (HTML, CSS, JavaScript).
+
+---
+
+### 1. TARGET AUDIENCE & TONAL DESIGN
+- Target Audience: Primary school students (Ages 7–11 / KS2).
+- Tone & Theme: Bright, colorful, engaging, encouraging, and friendly. Clean typography (e.g., Fredoka or Nunito fonts via Google Fonts) with large, child-friendly buttons and clear visual feedback.
+
+---
+
+### 2. CORE FEATURES & STRUCTURE
+
+#### A. Interactive Learning Modules
+Provide distinct interactive modules for each of the core KS2 Parts of Speech:
+1. Nouns (Common, Proper, Abstract, Collective)
+2. Verbs (Action, Helping/Auxiliary, Modal)
+3. Adjectives (Describing words, Comparatives/Superlatives)
+4. Adverbs (How, When, Where, Frequency)
+5. Pronouns (Personal, Possessive, Relative)
+6. Prepositions (Time, Place, Direction)
+7. Conjunctions (Coordinating - FANBOYS, Subordinating)
+
+#### B. Workbook Activities (Per Module)
+Each module should include 3 interactive exercise types:
+- Color-Coded Word Highlighter: Students read a sentence and click on specific parts of speech to highlight them.
+- Drag-and-Drop Categorizer: Drag words into the correct Part of Speech category buckets.
+- Fill-in-the-Blank / Sentence Builder: Choose the correct word class to complete a sentence meaningful to primary students.
+
+#### C. Gamification & Progress Tracking
+- Star/Badge System: Earn 1–3 stars per completed exercise.
+- Live Score Counter: Track correct answers in real-time.
+- Summary / Completion Certificate: A popup modal or summary screen at the end celebrating completion with a printable/downloadable summary or name field.
+- Local Storage Support: Save student progress locally in the browser so refreshing does not wipe their scores.
+
+---
+
+### 3. TECHNICAL SPECIFICATIONS
+- Architecture: A single HTML file (`index.html`) with embedded/modular CSS and Vanilla JavaScript, OR a lightweight React/Tailwind bundle ready for GitHub Pages export.
+- Deployment Compatibility: Must require no back-end/server setup. Must work out-of-the-box on GitHub Pages.
+- Responsiveness: Touch-friendly (works smoothly on iPads, tablets, and desktop browsers).
+
+---
+
+### 4. DELIVERABLES
+1. Full, working code for the app (`index.html`, `style.css`, and `script.js`).
+2. Brief `README.md` containing simple step-by-step instructions on how to create a GitHub repository and deploy the site using GitHub Pages.
